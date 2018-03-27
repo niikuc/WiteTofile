@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.niikuc.witetofile.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:text="Opis na Zborovite" />
+
+    <EditText
+        android:id="@+id/et_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Name of word"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/b_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/et_word"
+        android:layout_marginTop="67dp"
+        android:text="Show" />
+
+    <TextView
+        android:id="@+id/tv_opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/b_show_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/tv_opis"
+        android:layout_marginTop="67dp"
+        android:text="Open Dialog" />
+
+
+
+</RelativeLayout>
